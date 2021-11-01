@@ -8,7 +8,7 @@ import atob from 'atob'
 import AccountCard from '../components/AccountCard'
 import AccountTable from '../components/AccountTable'
 import TotalBalanceCard from '../components/TotalBalanceCard'
-import './index.css'
+// import './index.css'
 
 export default function Home(props) {
 
