@@ -99,7 +99,7 @@ export default function Home(props) {
     //console.log("Account Changed!")
     //console.log(account)
     cookies.set("accounts", account, cookieOptions)
-    setLink('https://www.alienworlds.fun/?accounts='+btoa(JSON.stringify(account)))
+    setLink('https://alienworld-monitor.netlify.app/?accounts='+btoa(JSON.stringify(account)))
   }, [account])
 
   useEffect(async () => {
