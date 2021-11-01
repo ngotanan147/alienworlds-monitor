@@ -8,6 +8,7 @@ import atob from 'atob'
 import AccountCard from '../components/AccountCard'
 import AccountTable from '../components/AccountTable'
 import TotalBalanceCard from '../components/TotalBalanceCard'
+import './index.css'
 
 export default function Home(props) {
 
@@ -124,7 +125,7 @@ export default function Home(props) {
   }, [totalTLM, totalWax, totalStaked])
 
   return (
-    <div className="flex flex-col min-h-screen items-center justify-center mt-10 px-2 lg:px-0">
+    <div className="flex flex-col min-h-screen items-center justify-center mt-10 px-2 lg:px-0 bg-dark">
       <Head>
         <title>Alienworlds Account Monitor | The only AW monitor website you needed | Monitor CPU,WAX,TLM,NFT, etc. of alienworlds here!</title>
         <meta name="description" content="Alienworlds.fun the only alienworlds monitor website that you needed. Included CPU,WAX,TLM,NFT,etc. No login needed. Start monitoring your alienworlds team now!" />
