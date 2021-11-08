@@ -36,14 +36,14 @@ const TotalBalanceCard = (props) => {
         <div className="flex flex-col rounded-md items-center justify-center bg-gray-700 w-full h-full py-5">
           <span className="text-xl font-bold">Total WAX</span>
           <span className="text-4xl font-bold text-green-400">{totalWax.toFixed(4)} WAX</span>
-          <span className="text-xs text-blue-300">1 WAXP =  {WAXPrice.market_price} USDT @ Huobi</span>
+          <span className="text-xs text-blue-300">1 WAXP =  {WAXPrice.market_price} USDT @ Binance</span>
           <span className="text-xs text-blue-300">Updated on: {WAXPrice.update}</span>
           <span className="text-md font-bold">~ {(totalWax*WAXPrice.market_price).toFixed(2)} USDT</span>
         </div>
         <div className="flex flex-col rounded-md items-center justify-center bg-gray-700 w-full h-full py-5">
           <span className="text-xl font-bold">Total WAX Staked</span>
           <span className="text-4xl font-bold text-green-400">{totalStaked.toFixed(4)} WAX</span>
-          <span className="text-xs text-blue-300">1 WAXP =  {WAXPrice.market_price} USDT @ Huobi</span>
+          <span className="text-xs text-blue-300">1 WAXP =  {WAXPrice.market_price} USDT @ Binance</span>
           <span className="text-xs text-blue-300">Updated on: {WAXPrice.update}</span>
           <span className="text-md font-bold">~ {(totalStaked*WAXPrice.market_price).toFixed(2)} USDT</span>
         </div>

@@ -70,11 +70,12 @@ export default function Home(props) {
       return 0
     })
   }
-
+  // 
+  // https://api.huobi.pro/market/detail?symbol=waxpusdt
   const fetchWAXPrice = async () => {
-    return axios.get('https://api.huobi.pro/market/detail?symbol=waxpusdt')
+    return axios.get('https://api.binance.com/api/v3/ticker/price?symbol=WAXPUSDT')
     .then(({data}) => {
-      return data.tick.close
+      return data.price
     })
     .catch((err) => {
       console.log("ERROR: cannot get WAX market price")

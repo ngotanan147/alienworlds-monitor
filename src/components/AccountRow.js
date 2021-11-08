@@ -468,7 +468,7 @@ export default function AccountRow(props) {
                     </svg>
                 </td>
                 <td className="font-bold">{index+1}</td>
-                <td>{minerName}</td>
+                {/* <td>{minerName}</td> */}
                 <td>{acc}</td>
                 <td>
                     <div className="overflow-hidden h-5 text-xs flex rounded bg-gray-800 w-full">
