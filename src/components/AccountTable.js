@@ -106,10 +106,10 @@ export default function AccountTable(props) {
                         <th className="w-4/12">CPU</th>
                         <th>Stake</th>
                         <th>TLM</th>
-                        <th>WAX</th>
+                        {/* <th>WAX</th> */}
                         <th>Last mine</th>
-                        <th className="w-1/12">Last update</th>
-                        <th>NFT</th>
+                        {/* <th className="w-1/12">Last update</th> */}
+                        <th>Bloks</th>
                     </tr>
                 </thead>
                 <tbody>
