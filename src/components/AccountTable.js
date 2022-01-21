@@ -110,6 +110,8 @@ export default function AccountTable(props) {
                         <th>Last mine</th>
                         {/* <th className="w-1/12">Last update</th> */}
                         <th>Bloks</th>
+                        <th>NTF</th>
+
                     </tr>
                 </thead>
                 <tbody>
