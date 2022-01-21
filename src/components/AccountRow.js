@@ -491,11 +491,18 @@ export default function AccountRow(props) {
                 <td>
                     <a
                         className="inline-flex items-center h-8 px-4 m-2 text-sm text-white font-bold transition-colors 
-                duration-150 bg-green-600 rounded-lg focus:shadow-outline hover:bg-green-800"
+                    duration-150 bg-green-600 rounded-lg focus:shadow-outline hover:bg-green-800"
                         href={'https://wax.bloks.io/account/' + acc}
                         rel="noopener noreferrer" target="_blank">Bloks</a>
                     <br />
                     {nft && nft.length > 0 && <span className="font-bold text-xs">{nft.length} NFTs Claimable!</span>}
+                </td>
+                <td>
+                <a
+                        className="inline-flex items-center h-8 px-4 m-2 text-sm text-white font-bold transition-colors 
+                    duration-150 bg-green-600 rounded-lg focus:shadow-outline hover:bg-green-800"
+                        href={'https://wax.bloks.io/account/' + acc}
+                        rel="noopener noreferrer" target="_blank">Assets</a>
                 </td>
             </tr>
             {/* {expanded && <>
